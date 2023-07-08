@@ -1,7 +1,7 @@
 import os
 import shutil
 
-directory = os.path.join("C:", os.sep, "Users", "S.Pabst", "Documents")
+directory = input("Enter the entire path of the directory that you wish to get sorted: ")
 
 file_extensions = {
     "png": "Photos",
